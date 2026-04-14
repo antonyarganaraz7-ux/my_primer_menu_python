@@ -1,1 +1,41 @@
+🍽️ Asistente de Gestión de Restaurante
+Este es un programa sencillo basado en Python diseñado para ayudar en la gestión básica de un restaurante. Permite visualizar el menú, calcular propinas, personalizar el nombre del local y calcular el total de la cuenta incluyendo impuestos (IVA).
 
+🚀 Funcionalidades
+El script ofrece un menú interactivo con las siguientes opciones:
+
+Ver Platillos Disponibles: Muestra una lista rápida de los productos actuales y sus precios.
+
+Calcular Propina Sugerida: Calcula automáticamente el 10% de propina basándose en el total de la cuenta.
+
+Personalizar Nombre: Permite cambiar el nombre del restaurante dinámicamente durante la ejecución.
+
+Calcular Total con IVA: Desglosa el subtotal, calcula el 21% de IVA y muestra el monto final a pagar.
+
+Salir: Cierra el programa con un mensaje de despedida personalizado.
+
+🛠️ Requisitos
+Python 3.x: El código está escrito en Python y es compatible con versiones modernas de este lenguaje.
+
+Entorno: Puede ejecutarse en cualquier terminal de comandos o en entornos como Google Colab.
+
+💻 Instrucciones de Uso
+Clona este repositorio o copia el archivo .py.
+
+Ejecuta el script en tu terminal:
+
+Bash
+python nombre_del_archivo.py
+Sigue las instrucciones en pantalla seleccionando los números del 1 al 5.
+
+📝 Ejemplo de Cálculo de IVA
+Si ingresas un subtotal de 100€, el programa procesará lo siguiente:
+
+Subtotal: 100.00€
+
+IVA (21%): 21.00€
+
+Total con IVA: 121.00€
+
+🛡️ Manejo de Errores
+El programa incluye bloques try-except para evitar que el código se detenga si el usuario ingresa texto en lugar de números en las opciones de cálculo financiero.
